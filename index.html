@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Swiper Projekat</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <h3>Odaberi svoje vozilo!</h3>
+    </div>
+    <div class="container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="images/aston-martin.jpg" />
+            <h3 id="1">Aston Martin</h3>
+            <button class="dugme">Klikni za vise informacija!</button>
+
+            <h4 id="car-details" class="aston-martin">
+              Cijena = $70.000, godište = '2018', motor = 'V8', snaga:'630hp'
+            </h4>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/audi-rs-e-tron-gt.jpg" />
+            <h3 id="2">Audi RS E Tron GT</h3>
+            <button class="dugme">Klikni za vise informacija!</button>
+
+            <h4 id="car-details" class="audi">
+              Cijena = $115.000, godište = '2021', motor = 'V12',
+              snaga:'85.0kWh'
+            </h4>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/maserati-mc20.jpg" />
+            <h3 id="3">Maserati MC 20</h3>
+            <button class="dugme">Klikni za vise informacija!</button>
+
+            <h4 id="car-details" class="maserati">
+              Cijena = $217.000, godište = '2023', motor = 'V6', snaga:'621hp'
+            </h4>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/nio-et5.jpg" />
+            <h3 id="4">Nio Et 5</h3>
+            <button class="dugme">Klikni za vise informacija!</button>
+
+            <h4 id="car-details" class="nio">
+              Cijena = $72.900, godište = '2022', motor = 'V12', snaga:'90kWh'
+            </h4>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</html>
